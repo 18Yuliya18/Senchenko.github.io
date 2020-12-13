@@ -1,0 +1,50 @@
+body {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Montserrat', arial;
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(#e66465, #9198e5);
+
+}
+main {
+    width: 100vw;
+    display: flex;
+    justify-content: space-around;
+}
+.instrument {
+    display: block;
+    margin-top: 25px;
+    width: 100px;
+    height: 80px;
+    border: 0;
+    border-radius: 15%;
+    box-shadow: 0px 10px 20px 5px rgba(0,0,0,0.75);
+}
+#clarnet {
+    background-image: url(images/clarnet.jpg);
+    background-position: center center;
+}
+#duduk {
+    background-image: url(images/duduk.jpg);
+    background-position: center center;
+}
+#fagot {
+    background-image: url(images/fagot.jpg);
+    background-position: center center;
+}
+#horn {
+    background-image: url(images/horn.png);
+    background-position: center center;
+}
+#volynka {
+    background-image: url(images/volynka.jpg);
+    background-position: center center;
+}
+#zaleika {
+    background-image: url(images/zaleika.jpg);
+    background-position: center center;
+}
